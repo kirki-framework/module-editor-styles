@@ -297,6 +297,6 @@ class Module {
 	 * @since 3.0.35
 	 */
 	private function set_modules_webfonts() {
-		$this->modules_webfonts = \Kirki\Modules\Webfonts\Module::get_instance();
+		$this->modules_webfonts = new \Kirki\Module\Webfonts();
 	}
 }
